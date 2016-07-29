@@ -1,0 +1,23 @@
+#+TITLE: README
+#+OPTIONS: ^:{}
+#+OPTIONS: html-postamble:nil
+
+#+INFOJS_OPT: view:nil toc:t ltoc:nil mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+
+* 说明
+本仓库只是收集其他人的贡献，都是别人实现的 bibtex/biblatex 样式文件。
+* 标准
+- [[https://raw.githubusercontent.com/saccohuo/GBT-Standard/master/GBT7714-1987%E6%96%87%E5%90%8E%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9D%80%E5%BD%95%E8%A7%84%E5%88%99.pdf][GB 7714-87 文后参考文献著录规则]]
+- [[https://raw.githubusercontent.com/saccohuo/GBT-Standard/master/%E3%80%90GB-T%207714-2005%E3%80%91%E6%96%87%E5%90%8E%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E8%91%97%E5%BD%95%E8%A7%84%E5%88%99.pdf][GB/T 7714-2005 文后参考文献著录规则]]
+- [[https://raw.githubusercontent.com/saccohuo/GBT-Standard/master/GBT.7714-2015.pdf][GB/T 7714-2015 文后参考文献著录规则]]
+* 参考
++ bibtex
+  - [[http://blog.lehu.shu.edu.cn/Article.aspx?aid=210123][《GB/T 7714-2005 文后参考文献著录规则》对应的参考文献样式 bst 风格文件的三个版本 - 应用数学门徒 - 上海大学乐乎博客]]
+  - [[https://github.com/Haixing-Hu/GBT7714-2005-BibTeX-Style][Haixing-Hu/GBT7714-2005-BibTeX-Style]]
+  - [[https://github.com/zepinglee/gbt-7714-2015][zepinglee/gbt-7714-2015]]
+  - [[https://github.com/farseerfc/sjtu-thesis-xelatex/blob/master/GBT7714-2005NLang.bst][sjtu-thesis-xelatex/GBT7714-2005NLang.bst]]
++ biblatex
+  - [[https://github.com/szsdk/biblatex-gbt77142005][szsdk/biblatex-gbt77142005]]
++ GB 或 GB/T 标准
+  - [[https://github.com/Haixing-Hu/typesetting-standard/][Haixing-Hu/typesetting-standard: 中文排版所需遵循的标准和规范]]
