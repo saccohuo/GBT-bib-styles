@@ -15,7 +15,14 @@
 - [[https://raw.githubusercontent.com/saccohuo/GBT-Standard/master/GBT.7714-2015.pdf][GB/T 7714-2015 文后参考文献著录规则]]
 ** 参考
 + bibtex
-  - [[http://blog.lehu.shu.edu.cn/Article.aspx?aid=210123][《GB/T 7714-2005 文后参考文献著录规则》对应的参考文献样式 bst 风格文件的三个版本 - 应用数学门徒 - 上海大学乐乎博客]]
+  - [[http://blog.lehu.shu.edu.cn/Article.aspx?aid=210123][《GB/T 7714-2005 文后参考文献著录规则》对应的参考文献样式 bst 风格文件的三个版本 - 应用数学门徒 - 上海大学乐乎博客]] 介绍怎么修改作者名全大写到作者名仅首字母大写
+    #+BEGIN_QUOTE
+    在 bst 文件的 438 行左右，针对作者名称使用的函数命令各不相同。
+
+    xxx-UPP.bst 使用了命令 {"u" change.case$}
+
+    xxx-Upp.bst 使用了命令 {"\textup{" swap$ * "}" * }
+    #+END_QUOTE
   - [[https://github.com/Haixing-Hu/GBT7714-2005-BibTeX-Style][Haixing-Hu/GBT7714-2005-BibTeX-Style]]
   - [[https://github.com/zepinglee/gbt-7714-2015][zepinglee/gbt-7714-2015]]
   - [[https://github.com/farseerfc/sjtu-thesis-xelatex/blob/master/GBT7714-2005NLang.bst][sjtu-thesis-xelatex/GBT7714-2005NLang.bst]]
